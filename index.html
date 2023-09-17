@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="fulltime">
+        <div class="date"></div>
+        <div class="time"></div>
+    </div>
+
+    <div class="stopwatch">
+        <div>
+            <div class="stopwatchTime">
+                <div class="hour">00</div>
+                <span>:</span>
+                <div class="minute">00</div>
+                <span>:</span>
+                <div class="second">00</div>
+                <span>:</span>
+                <div class="millisecond">000</div>
+            </div>
+            <div class="stopwatchButtons">
+                <button id="startStopwatch">START</button>
+                <button id="saveTime">LOOP</button>
+                <button id="pauseStopwatch">STOP</button>
+                <button id="resetStopwatch">RESET</button>
+            </div>
+        </div>
+        <div class="resultSavedTimes"></div>
+    </div>
+
+    <div class="timer">
+        <div class="timerTime">
+            <div class="changeMins">25</div>
+            <h4>MINUTES</h4>
+            <div class="btnChangeMins">
+                <button class="decreaseMins" onclick="decreaseMins()">-</button>
+                <button class="increaseMins" onclick="increaseMins()">+</button>
+            </div>
+        </div>
+        <div class="timerCountdown">
+            <div class="timerMins"> 
+                <span class="minutes">00</span>
+                <span>:</span>
+                <span class="seconds">00</span>
+            </div>
+            <div class="btn-timer">
+                <button id="startTimer">START</button>
+                <button id="pauseTimer">PAUSE</button>
+                <button id="resetTimer">RESET</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

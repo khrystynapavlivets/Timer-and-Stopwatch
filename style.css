@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(3, 3, 29);
+  font-family: "Stick No Bills", sans-serif;
+  color: aqua;
+}
+.fulltime {
+  width: 100vw;
+  height: 200px;
+  margin: auto;
+  padding: 30px;
+  border: 0.1px solid #eee9e9;
+  /* text-align: center; */
+  box-shadow: rgba(173, 173, 176, 0.25) 0px 13px 27px -5px,
+    rgb(159, 154, 154) 0px 8px 10px -9px inset;
+}
+.date {
+  font-size: 40px;
+  text-align: center;
+}
+.time {
+  font-size: 90px;
+position: absolute;
+  width: 395px;
+  transform: translate(-50%, -50%);
+  top: 138px;
+left: 50%;
+right: 50%;
+
+}
+/* styling for the STOPWATGH */
+
+.stopwatch,
+.timer {
+  border: 0.1px solid #eee9e9;
+  height: 250px;
+  justify-content: space-evenly;
+  margin: 30px 0;
+  display: flex;
+  box-shadow: rgba(173, 173, 176, 0.25) 0px 13px 27px -5px,
+    rgb(159, 154, 154) 0px 8px 10px -9px inset;
+}
+.stopwatchTime {
+  display: flex;
+  position: absolute;
+  font-size: 70px;
+  margin: 30px 0 0px;
+}
+.stopwatchButtons {
+  margin-top: 140px;
+}
+.resultSavedTimes {
+  width: 320px;
+  height: 200px;
+  border: 0.1px solid #6f6f6f;
+  margin-top: 25px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: rgba(173, 173, 176, 0.25) 0px 13px 27px -5px,
+    rgb(159, 154, 154) 0px 8px 10px -9px inset;
+}
+button {
+  margin: 0 7px;
+  text-align: center;
+  width: 60px;
+  height: 31px;
+  border: 0.1px solid #eee9e9;
+  color: aqua;
+  background-color: rgb(3, 3, 29);
+  box-shadow: rgba(173, 173, 176, 0.25) 0px 13px 27px -5px,
+    rgb(159, 154, 154) 0px 8px 10px -9px inset;
+  transition: 0.1s all;
+}
+button:hover {
+  border: 2px solid #b5b5b5;
+}
+/* styling for the TIMER */
+.timerMins,
+.changeMins {
+  font-size: 75px;
+  text-align: center;
+  margin: 30px 0 0;
+}
+.btnChangeMins {
+  text-align: center;
+}
+h4 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.timerCountdown {
+  position: relative;
+  width: 320px;
+}
+.timerTime {
+  width: 320px;
+}
+
+.timerMins {
+  font-size: 95px;
+  /* width: 320px;
+  height: 100px; */
+  position: absolute;
+  top: 0;
+  left: 30px;
+  /* right: 0; */
+}
+
+.btn-timer {
+  width: 320px;
+  margin-top: 173px;
+  text-align: center;
+}
